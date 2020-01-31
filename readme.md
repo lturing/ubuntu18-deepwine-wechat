@@ -58,3 +58,7 @@ deepin-wine regedit msyh_config.reg
 ```
 
 
+* 解决微信无法发图片
+```
+sudo apt install libjpeg62:i386
+```
