@@ -24,6 +24,7 @@ wget https://mirrors.aliyun.com/deepin/pool/main/libj/libjpeg-turbo/libjpeg62-tu
 git clone  https://github.com/lturing/ubuntu18-deepwine-wechat.git
 cd ubuntu18-deepwine-wechat
 sudo chmod a+x ./install-deepin-wine.sh
+sudo bash ./install-deepin-wine.sh
 sudo dpkg -i --force-overwrite deepin.com.wechat_2.6.2.31deepin0_i386.deb
 ```
 
