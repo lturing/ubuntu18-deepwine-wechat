@@ -29,6 +29,7 @@ sudo dpkg -i --force-overwrite deepin.com.wechat_2.6.2.31deepin0_i386.deb
 # 卸载微信
 sudo apt remove deepin.com.wechat
 sudo dpkg -P deepin.com.wechat
+sudo dpkg --configure -a
 ```
 
 * 解决微信中文乱码
