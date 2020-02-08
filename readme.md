@@ -138,7 +138,9 @@ do
 	sleep 0.1
 done
 ```
-
+```bash
+sudo chmod +x /opt/deepinwine/apps/Deepin-WeChat/runrun.sh
+```
 修改desktop文件
 ```bash 
 sudo vim /usr/share/applications/deepin.com.wechat.desktop
