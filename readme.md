@@ -148,3 +148,8 @@ sudo vim /usr/share/applications/deepin.com.wechat.desktop
 
 Exec="/opt/deepinwine/apps/Deepin-WeChat/runrun.sh"
 ```
+
+* 安装托盘(消息来了，闪烁提醒)
+```bash
+sudo apt install gnome-shell-extension-top-icons-plus
+```
