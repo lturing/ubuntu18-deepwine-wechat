@@ -195,3 +195,25 @@ sudo vim /etc/fonts/conf.d/64-language-selector-prefer.conf
 </fontconfig>
 
 ```
+> 以上 <family>Noto Sans Mono CJK **</family>中的SC、TC、HK、KR、JP为文字的搜索顺序(sc, simplied chinese)
+
+* ubuntu 安装微软雅黑、mac下的Monaco字体
+```
+sudo mkdir /usr/share/fonts/micro-yahei 
+cd ./msyh.ttc  /usr/share/fonts/micro-yahei 
+cd /usr/share/fonts/micro-yahei  
+sudo chmod 744 *
+sudo mkfontscale
+sudo mkfontdir
+
+sudo mkdir /usr/share/fonts/monaco 
+cp ./monaco.ttf /usr/share/fonts/monaco 
+cd /usr/share/fonts/monaco 
+sudo chmod 744 *
+sudo mkfontscale
+sudo mkfontdir
+
+sudo fc-cache -fv
+
+```
+
