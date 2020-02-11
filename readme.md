@@ -154,3 +154,44 @@ Exec="/opt/deepinwine/apps/Deepin-WeChat/runrun.sh"
 sudo apt install gnome-shell-extension-top-icons-plus
 #/usr/share/gnome-shell/extensions
 ```
+
+
+* ubuntu 部分中文跟简体中文有区别(ubuntu 18)
+```
+sudo vim /etc/fonts/conf.d/64-language-selector-prefer.conf 
+修改成以下：
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+        <alias>
+                <family>sans-serif</family>
+                <prefer>
+                        <family>Noto Sans CJK SC</family>
+                        <family>Noto Sans CJK TC</family>
+                        <family>Noto Sans CJK HK</family>
+                        <family>Noto Sans CJK KR</family>
+                        <family>Noto Sans CJK JP</family>
+                </prefer>
+        </alias>
+        <alias>
+                <family>serif</family>
+                <prefer>
+                        <family>Noto Serif CJK SC</family>
+                        <family>Noto Serif CJK TC</family>
+                        <family>Noto Serif CJK KR</family>
+                        <family>Noto Serif CJK JP</family>
+                </prefer>
+        </alias>
+        <alias>
+                <family>monospace</family>
+                <prefer>
+                        <family>Noto Sans Mono CJK SC</family>
+                        <family>Noto Sans Mono CJK TC</family>
+                        <family>Noto Sans Mono CJK HK</family>
+                        <family>Noto Sans Mono CJK KR</family>
+                        <family>Noto Sans Mono CJK JP</family>
+                </prefer>
+        </alias>
+</fontconfig>
+
+```
