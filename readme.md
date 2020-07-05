@@ -20,7 +20,7 @@ wget https://mirrors.aliyun.com/deepin/pool/main/libj/libjpeg-turbo/libjpeg62-tu
 ```
 
 * 下载相应的软件
-(http://mirrors.aliyun.com/deepin/pool/non-free/d/)[http://mirrors.aliyun.com/deepin/pool/non-free/d/)
+[http://mirrors.aliyun.com/deepin/pool/non-free/d/](http://mirrors.aliyun.com/deepin/pool/non-free/d/)
 
 *  安装 deepin-wine和微信
 ```
