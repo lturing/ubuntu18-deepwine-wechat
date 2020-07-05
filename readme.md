@@ -19,6 +19,9 @@ wget https://mirrors.aliyun.com/deepin/pool/main/libj/libjpeg-turbo/libjpeg62-tu
 wget https://mirrors.aliyun.com/deepin/pool/main/libj/libjpeg-turbo/libjpeg62-turbo_1.5.1-2_i386.deb
 ```
 
+* 下载相应的软件
+(http://mirrors.aliyun.com/deepin/pool/non-free/d/)[http://mirrors.aliyun.com/deepin/pool/non-free/d/)
+
 *  安装 deepin-wine和微信
 ```
 git clone  https://github.com/lturing/ubuntu18-deepwine-wechat.git
