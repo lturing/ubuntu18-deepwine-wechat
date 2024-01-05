@@ -1,3 +1,6 @@
+update at 2024-1-6
+[微信](https://www.ubuntukylin.com/applications/106-cn.html)
+
 ## ubuntu 18 利用deepin-wine安装微信
 * 参照模板，根据url前缀下载相应的deb
 ```
